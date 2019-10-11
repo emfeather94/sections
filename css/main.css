@@ -4,6 +4,7 @@ html {
   background-color: #eee9de;
   font-family: Lato, sans-serif;
   color: #333;
+  vertical-align: middle;
 }
 
 *, *::before, *::after {
@@ -52,6 +53,5 @@ html {
   max-width: 25em;
   margin-left: auto;
   margin-right: auto;
-  font-size: 15;
   padding: .4em 0;
 }
