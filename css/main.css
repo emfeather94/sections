@@ -10,19 +10,20 @@ html {
   box-sizing: inherit;
 }
 
-.image {
+.img {
   display: inline-block;
-  padding: 2em 1em 0 1em;
+  padding: 2em 1em 0;
   width: 100%;
   max-width: 25em;
 }
 
-.main {
-  padding: 0.5em 1em;
+.body {
+  padding: .5em 1em;
   display: inline-block;
+  text-align: left;
 }
 
-.main a {
+.body a {
   display: inline-block;
   text-decoration: none;
   padding: .5em .75em;
@@ -32,25 +33,25 @@ html {
   color: #666;
 }
 
-.main a:hover {
+.body a:hover {
   background-color: #666;
   color: #fff;
   border-color: #666;
-  padding: .75em .75em;
+  padding: .5em .75em;
   text-align: center;
   border-radius: 10px;
 }
 
-.main h2 {
+.body h2 {
   display: block;
   max-width: 25em;
   font-weight: bold;
 }
 
-.main p {
+.body p {
   max-width: 25em;
   margin-left: auto;
   margin-right: auto;
-  font-size: 15pt;
+  font-size: 15;
   padding: .4em 0;
 }
