@@ -13,10 +13,13 @@ html {
 }
 
 body {
-  padding: 1em 0;
+  padding: .5em 0;
   margin: 0;
 }
 
+section {
+  padding: .4em;
+}
 img {
   display: block;
   width: 100%;
@@ -47,7 +50,7 @@ div p {
   width: 100%;
   margin: 0 auto;
   padding: .5em 0 2em;
-  font-weight: 200;
+  font-weight: 500;
 }
 
 div a {
@@ -55,20 +58,19 @@ div a {
   text-decoration: none;
   color: #333;
   max-width: 25em;
-  font-size: 15pt;
 }
 
 .btn {
   background-color: #eee9de;
   border: 3px solid #333;
   border-radius: 10px;
-  padding: .5em .75em;
+  padding: .4em .5em;
 }
 
 .btn:hover {
   background-color: #666;
   color: #fff;
   border-color: #666;
-  padding: .5em .75em;
+  padding: .4em .5em;
   text-align: center;
 }
