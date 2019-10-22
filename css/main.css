@@ -12,7 +12,7 @@ html {
 }
 
 body {
-  padding: 1em;
+  padding: 1em 0;
   margin: 0;
 }
 
@@ -37,7 +37,7 @@ div h2 {
   max-width: 25em;
   font-weight: bold;
   margin: 0 auto;
-  padding: 1em 0;
+  padding: 1em 0 .5em;
 }
 
 div p {
@@ -45,7 +45,7 @@ div p {
   max-width: 25em;
   width: 100%;
   margin: 0 auto;
-  padding: .75em 0 1em;
+  padding: .5em 0 1em;
 }
 
 div a {
