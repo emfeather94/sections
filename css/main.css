@@ -21,9 +21,12 @@ img {
   display: block;
   width: 100%;
   max-width: 25em;
-  padding: 1em 0 ;
+  padding: 1em 0;
 }
 
+article {
+  display: inline-block;
+}
 div h2 {
   display: block;
   max-width: 25em;
