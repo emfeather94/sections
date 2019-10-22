@@ -13,13 +13,13 @@ html {
 }
 
 body {
-  padding: .5em 0;
-  margin: 0;
+  margin: 1.5rem 0;
 }
 
 section {
   padding: .4em;
 }
+
 img {
   display: block;
   width: 100%;
@@ -50,7 +50,6 @@ div p {
   width: 100%;
   margin: 0 auto;
   padding: .5em 0 2em;
-  font-weight: 500;
 }
 
 div a {
@@ -63,7 +62,7 @@ div a {
 .btn {
   background-color: #eee9de;
   border: 3px solid #333;
-  border-radius: 10px;
+  border-radius: 7px;
   padding: .4em .5em;
 }
 
