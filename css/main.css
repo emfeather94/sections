@@ -24,9 +24,11 @@ img {
   padding: 1em 0;
 }
 
-article {
+div {
   display: inline-block;
+  text-align: left;
 }
+
 div h2 {
   display: block;
   max-width: 25em;
@@ -52,7 +54,7 @@ div a {
   background-color: #eee9de;
   border: 4px solid #333;
   border-radius: 10px;
-  padding:
+  padding: .5em;
 }
 
 .btn a {
@@ -64,6 +66,6 @@ div a {
   background-color: #666;
   color: #fff;
   border-color: #666;
-  padding:
+  padding: .5em;
   text-align: center;
 }
