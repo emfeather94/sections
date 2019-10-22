@@ -17,11 +17,12 @@ body {
 }
 
 img {
-  display: inline;
+  display: block;
   width: 100%;
   max-width: 25em;
   padding: 2em .4em 0 0;
   margin: 0 auto;
+  justify-content: flex-start;
 }
 
 div {
