@@ -20,7 +20,7 @@ img {
   display: block;
   width: 100%;
   max-width: 25em;
-  padding: 2em .75em 0;
+  padding: 2em .75em .4em;
   margin: 0 auto;
   float: left;
 }
@@ -45,7 +45,7 @@ div p {
   max-width: 25em;
   width: 100%;
   margin: 0 auto;
-  padding: .5em 0 1em;
+  padding: .5em 0 2em;
 }
 
 div a {
