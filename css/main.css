@@ -13,15 +13,16 @@ html {
 
 body {
   padding: .5em 1em;
-  display: inline-block;
   margin: 0;
 }
 
 img {
-  display: block;
+  display: inline-block;
   width: 100%;
   max-width: 25em;
   padding: 1em 0;
+  margin: 0 auto;
+position: relative;
 }
 
 div {
@@ -36,7 +37,7 @@ div h2 {
 }
 
 div p {
-  display: inline-block;
+  display: block;
   max-width: 25em;
   width: 100%;
   margin-left: auto;
@@ -45,24 +46,20 @@ div p {
 }
 
 div a {
+  display: inline-block;
   text-decoration: none;
   color: #333;
+  max-width: 25em;
 }
 
 .btn {
-  display: inline-block;
   background-color: #eee9de;
   border: 4px solid #333;
   border-radius: 10px;
   padding: .5em;
 }
 
-.btn a {
-  display: inline-block;
-  padding: .5em .75em;
-}
-
-.btn a:hover {
+.btn:hover {
   background-color: #666;
   color: #fff;
   border-color: #666;
